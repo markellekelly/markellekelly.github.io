@@ -1,6 +1,6 @@
-# academic
+# Markelle Kelly
 
-### A Jekyll theme for academia
+### :)
 
 ![Academic Screenshot](https://raw.githubusercontent.com/LeNPaul/academic/gh-pages/screenshot.png)
 
