@@ -28,7 +28,15 @@ body #content a {
 }
 
 body a:hover img {
-  filter: invert(22%) sepia(12%) saturate(5910%) hue-rotate(110deg) brightness(98%) contrast(101%);
+  filter: brightness(0) saturate(100%) invert(22%) sepia(12%) saturate(5910%) hue-rotate(110deg) brightness(98%) contrast(101%);
+}
+
+body a img {
+  filter: brightness(0) saturate(100%);
+  transform: scale(1,-1) rotate(270deg);
+  height:20px;
+  margin-right:5px;
+  margin-bottom:5px;
 }
 
 body #content a:hover {
@@ -50,6 +58,7 @@ h1, h2, nav {
   max-width: 200px;
   margin-left: auto;
   margin-right: auto;
+  border-radius:3px;
 }
 
 .center {
