@@ -1,4 +1,4 @@
-<div class="row g-5 mb-2">
+<div>
   <div>
     {% if page.title == "Home" %}
     <h2 class="fw-bold fs-5 border-bottom pb-3 mb-4">Selected Publications</h2>
@@ -9,27 +9,20 @@
         [<a href={{item.pdfurl}}>pdf</a>] [<a href={{item.codeurl}}>code</a>]</p>
       {% endfor %}
     {% else %}
-    <div class="mb-5">
+    <div>
     <h2 class="fw-bold fs-5 border-bottom pb-3 mb-4">Projects</h2>
-    <p><b>Understanding Mental Models of AI Agents</b><br>
-      As part of the human-machine group at UCI, led by Dr. Padhraic Smyth and Dr. Mark Steyvers, I am researching how
-      people perceive machine learning models, based on principles from cognitive science, using crowdsourced experiments and Bayesian modeling techniques. 
-    </p>
-    <p><b>UCI Machine Learning Repository</b><br>
-      I am working on the NSF-funded reinvention of the <a href="https://archive-beta.ics.uci.edu/">UCI Machine Learning Repository</a>,
-      headed by Dr. Sameer Singh, Dr. Padhraic Smyth, and Dr. Philip Papadopoulos.
-      In particular, I am developing automatically-generated performance baselines for the repository's 
-      datasets. I also contribute to general design and functionality decisions, including extensive
-      research on best practices for methodological data repositories. Finally, I serve as a repository curator and librarian,
-      curating and maintaining our datasets and their metadata.  
-    </p>
-    <p><b>COVID Awareness</b><br>
-      As a member of the <a href="https://www.stat.uci.edu/covid19/about.html">UCI Covid Awareness</a> group,
-      I help maintain a dashboard that displays up-to-date information on COVID tests, cases, hospitalizations,
-      and deaths in California, with a focus on Orange County. This dashboard combines data from several
-      sources and presents it to California residents in an understandable manner.
-    </p>
+    {% for item in site.data.projects.all %}
+      <div class="row mb-5">
+      <div class="right p-0 col-md-1 d-none d-md-block"><img class="projimg" src="{{ item.image }}" width=100% /></div>
+      <div class="col-md-11">
+      <p class="projp"><b>{{ item.name }}</b><br>
+        {{item.description}}
+      </p>
+      </div>
+      </div>
+    {% endfor %}
   </div>
+</div>
     <h2 class="fw-bold fs-5 border-bottom pb-3 mb-4">Publications</h2>
       {% for item in site.data.publications.index %}
       <p><b>{{ item.name }}</b><br>
