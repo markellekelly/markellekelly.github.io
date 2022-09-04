@@ -1,6 +1,6 @@
 menu:
 - {name: 'research', url: '/research'}
-- {name: 'cv', url: '/cv'}
+- {name: 'cv', url: '/assets/markelle_cv.pdf'}
 
 social:
 - {icon: 'github', link: 'https://github.com/markellekelly'}
