@@ -1,19 +1,19 @@
 all:
 - {name: 'Understanding Mental Models of AI Agents',
   description: "As part of the human-machine group at UCI, led by Dr. Padhraic Smyth and Dr. Mark Steyvers, I am researching how
-      people perceive machine learning models, based on principles from cognitive science, using crowdsourced experiments and Bayesian modeling techniques. ",
+      people develop mental models of AI agents. This work is based on crowdsourced experiments and Bayesian modeling techniques,
+      rooted in principles from cognitive science and psychology.",
   image: "/assets/img/mental_model.png"}
 - {name: 'UCI Machine Learning Repository',
   description: "I am working on the NSF-funded reinvention of the <a href='https://archive-beta.ics.uci.edu/'>UCI Machine Learning Repository</a>,
       headed by Dr. Sameer Singh, Dr. Padhraic Smyth, and Dr. Philip Papadopoulos.
       In particular, I am developing automatically-generated performance baselines for the repository's 
-      datasets. I also contribute to general design and functionality decisions, including extensive
-      research on best practices for methodological data repositories. Finally, I serve as a repository curator and librarian,
+      datasets. I also contribute to general design and functionality decisions, and serve as a repository curator and librarian,
       curating and maintaining our datasets and their metadata.",
   image: "/assets/img/uci_ml.png"}
 - {name: 'COVID Awareness',
   description: "As a member of the <a href='https://www.stat.uci.edu/covid19/about.html'>UCI Covid Awareness</a> group, led by
       Dr. Vladimir Minin, I help maintain a dashboard that displays up-to-date information on COVID tests, cases, hospitalizations,
       and deaths in California, with a focus on Orange County. This dashboard combines data from several
-      sources and presents it to California residents in an understandable manner.",
+      sources and aims to present it to California residents in an understandable manner.",
   image: "/assets/img/covid.png"}
