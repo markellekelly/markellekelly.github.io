@@ -1,15 +1,13 @@
 featured:
 - {name: 'Understanding Systematic Miscalibration in Machine Learning Classifiers',
-  authors1: "",
-  authors2: " and Padhraic Smyth", 
+  authors: "<b>Markelle Kelly</b> and Padhraic Smyth",
   at: "TREX Workshop, IEEE VIS 2022",
   pdfurl: "/publications/Understanding_Miscalibration.pdf",
   codeurl: ""}
 
 index:
 - {name: 'Understanding Systematic Miscalibration in Machine Learning Classifiers',
-  authors1: "",
-  authors2: " and Padhraic Smyth", 
+  authors: "<b>Markelle Kelly</b> and Padhraic Smyth",
   at: "TREX Workshop, IEEE VIS 2022",
   pdfurl: "/publications/Understanding_Miscalibration.pdf",
   codeurl: ""}

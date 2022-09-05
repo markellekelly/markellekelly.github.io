@@ -1,37 +1,35 @@
 <div>
-  <div>
     {% if page.title == "Home" %}
-    <h2 class="fw-bold fs-5 border-bottom pb-3 mb-4">Selected Publications</h2>
-      {% for item in site.data.publications.featured %}
+      <div>
+      <h2 class="fw-bold fs-5 border-bottom pb-3 mb-4">Selected Publications</h2>
+        {% for item in site.data.publications.featured %}
+          <p><b>{{ item.name }}</b><br>
+          <span class="pubbody">
+          {{item.authors}}<br>
+          {{item.at}}<br>
+          [<a href={{item.pdfurl}}>pdf</a>] [<a href={{item.codeurl}}>code</a>]</span></p>
+        {% endfor %}
+      </div>
+    {% else %}
+      <h2 class="fw-bold fs-5 border-bottom pb-3 mb-4">Projects</h2>
+      {% for item in site.data.projects.all %}
+        <div class="row">
+          <div class="right p-0 col-md-1 d-none d-md-block"><img class="projimg" src="{{ item.image }}" width=100% /></div>
+          <div class="col-md-11">
+            <p class="projp"><b class="projtitle">{{ item.name }}</b><br>
+              {{item.description}}
+            </p>
+          </div>
+        </div>
+      {% endfor %}
+      <div class="spacer row mb-5"></div>
+      <h2 class="fw-bold fs-5 border-bottom pb-3 mb-4">Publications</h2>
+      {% for item in site.data.publications.index %}
         <p><b>{{ item.name }}</b><br>
         <span class="pubbody">
-        {{item.authors1}}<span class="highlight">Markelle Kelly</span>{{item.authors2}}<br>
-        {{item.at}}<br>
-        [<a href={{item.pdfurl}}>pdf</a>] [<a href={{item.codeurl}}>code</a>]</span></p>
-      {% endfor %}
-    {% else %}
-    <div>
-    <h2 class="fw-bold fs-5 border-bottom pb-3 mb-4">Projects</h2>
-    {% for item in site.data.projects.all %}
-      <div class="row mb-5">
-      <div class="right p-0 col-md-1 d-none d-md-block"><img class="projimg" src="{{ item.image }}" width=100% /></div>
-      <div class="col-md-11">
-      <p class="projp"><b class="projtitle">{{ item.name }}</b><br>
-        {{item.description}}
-      </p>
-      </div>
-      </div>
-    {% endfor %}
-  </div>
-</div>
-    <h2 class="fw-bold fs-5 border-bottom pb-3 mb-4">Publications</h2>
-      {% for item in site.data.publications.index %}
-      <p><b>{{ item.name }}</b><br>
-        <span class="pubbody">
-        {{item.authors1}}<span class="highlight">Markelle Kelly</span>{{item.authors2}}<br>
+        {{item.authors}}<br>
         {{item.at}}<br>
         [<a href={{item.pdfurl}}>pdf</a>] [<a href={{item.codeurl}}>code</a>]</span></p>
       {% endfor %}
     {% endif %}
-  </div>
 </div>
