@@ -1,0 +1,30 @@
+all:
+- {name: 'Software Engineering at Project Jupyter',
+  description: "I worked for over two years as a software engineering intern for <a href='https://jupyter.org/'>Project Jupyter</a>, 
+  with a focus on JupyterLab, a web-based framework for interactive computing.
+  Led by Dr. Brian Granger and Dr. Zach Sailer, I built two JupyterLab plugins that are now dependencies for multiple other projects, 
+  and developed methods for adding custom front ends to the Jupyter server.
+  Along the way, I collaborated closely with other developers and UI/UX designers to conduct user testing
+  and make design decisions. Cumulatively, my projects in JupyterLab development place me in the 
+  tool’s top 20 contributors of all time—work that both expanded existing computational software and 
+  enabled a range of scientific programming across disciplines.",
+  image: "/assets/img/jupyter.png"}
+- {name: 'Human Trafficking Detection with the Global Emancipation Network',
+  description: "I led a team with two other students, in collaboration with the <a href='https://www.globalemancipation.ngo/'>
+  Global Emancipation Network</a>,
+   to identify California businesses
+   engaging in human trafficking. We scraped web data on illicit 
+   massage parlors and developed a novel model to predict their involvement in human trafficking. In April 2020,
+    the model’s output was presented to the FBI, directly resulting in the investigation and subsequent
+    raiding of multiple California human trafficking hubs. We also performed a case study regarding
+    these parlors in San Luis Obispo County, culminating in a June 2020 report for the district attorney. 
+    This work set a precedent for similar endeavors in other states, including in Texas, Washington, and 
+    Michigan, thus enhancing our machine learning toolkit for the fight against human trafficking.",
+  image: "/assets/img/gen.jpeg"}
+- {name: 'Understanding Co-Curricular Participation of Engineering Students',
+  description: "My undergraduate research included working with Dr. Chance Hoellwarth on an NSF-funded
+   study on minority students in engineering. As a research assistant, I analyzed survey data, working to
+  understand the factors that influence these students' participation in co-curricular activities. 
+  This work culminated in a proposal of action to increase diversity in these activities for Cal
+   Poly’s College of Engineering, and an expanded study involving several other universities worldwide.",
+  image: "/assets/img/eng.jpg"}

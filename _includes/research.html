@@ -11,7 +11,16 @@
         {% endfor %}
       </div>
     {% else %}
-      <h2 class="fw-bold fs-5 border-bottom pb-3 mb-4">Projects</h2>
+    <h2 class="fw-bold fs-5 border-bottom pb-3 mb-4">Publications</h2>
+    {% for item in site.data.publications.index %}
+      <p><b>{{ item.name }}</b><br>
+      <span class="pubbody">
+      {{item.authors}}<br>
+      {{item.at}}<br>
+      [<a href={{item.pdfurl}}>pdf</a>] [<a href={{item.codeurl}}>code</a>]</span></p>
+    {% endfor %}
+    <div class="spacer row mb-5"></div>
+      <h2 class="fw-bold fs-5 border-bottom pb-3 mb-4">Current Projects</h2>
       {% for item in site.data.projects.all %}
         <div class="row">
           <div class="right p-0 col-md-1 d-none d-md-block"><img class="projimg" src="{{ item.image }}" width=100% /></div>
@@ -22,14 +31,17 @@
           </div>
         </div>
       {% endfor %}
-      <div class="spacer row mb-5"></div>
-      <h2 class="fw-bold fs-5 border-bottom pb-3 mb-4">Publications</h2>
-      {% for item in site.data.publications.index %}
-        <p><b>{{ item.name }}</b><br>
-        <span class="pubbody">
-        {{item.authors}}<br>
-        {{item.at}}<br>
-        [<a href={{item.pdfurl}}>pdf</a>] [<a href={{item.codeurl}}>code</a>]</span></p>
-      {% endfor %}
-    {% endif %}
+    <div class="spacer row mb-5"></div>
+    <h2 class="fw-bold fs-5 border-bottom pb-3 mb-4">Past Projects</h2>
+    {% for item in site.data.pastprojects.all %}
+    <div class="row">
+      <div class="right p-0 col-md-1 d-none d-md-block"><img class="projimg" src="{{ item.image }}" width=100% /></div>
+      <div class="col-md-11">
+        <p class="projp"><b class="projtitle">{{ item.name }}</b><br>
+          {{item.description}}
+        </p>
+      </div>
+    </div>
+  {% endfor %}
+  {% endif %}
 </div>
