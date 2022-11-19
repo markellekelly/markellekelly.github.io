@@ -1,13 +1,18 @@
 featured:
-- {name: 'Understanding Systematic Miscalibration in Machine Learning Classifiers',
+- {name: 'Variable-Based Calibration for Machine Learning Classifiers',
   authors: "<b>Markelle Kelly</b> and Padhraic Smyth",
-  at: "TREX Workshop, IEEE VIS 2022",
-  pdfurl: "/publications/Understanding_Miscalibration.pdf",
-  codeurl: ""}
+  at: "37th AAAI Conference on Artificial Intelligence (AAAI) 2023",
+  pdfurl: "https://arxiv.org/pdf/2209.15154.pdf",
+  codeurl: "https://github.com/markellekelly/variable-wise-calibration"}
 
 index:
 - {name: 'Understanding Systematic Miscalibration in Machine Learning Classifiers',
   authors: "<b>Markelle Kelly</b> and Padhraic Smyth",
   at: "TREX Workshop, IEEE VIS 2022",
   pdfurl: "/publications/Understanding_Miscalibration.pdf",
-  codeurl: ""}
+  codeurl: "https://github.com/markellekelly/variable-wise-calibration"}
+- {name: 'Variable-Based Calibration for Machine Learning Classifiers',
+  authors: "<b>Markelle Kelly</b> and Padhraic Smyth",
+  at: "37th AAAI Conference on Artificial Intelligence (AAAI) 2023",
+  pdfurl: "https://arxiv.org/pdf/2209.15154.pdf",
+  codeurl: "https://github.com/markellekelly/variable-wise-calibration"}
