@@ -4,11 +4,11 @@ featured:
   at: "37th AAAI Conference on Artificial Intelligence (AAAI), 2023",
   pdfurl: "https://arxiv.org/pdf/2209.15154.pdf",
   codeurl: "https://github.com/markellekelly/variable-wise-calibration"}
-- {name: 'Does the AI Know What I Know? A Framework for Modeling Human Perceptions of AI',
+- {name: 'Capturing Humans' Mental Models of AI: An Item Response Theory Approach',
   authors: "<b>Markelle Kelly</b>, Aakriti Kumar, Padhraic Smyth, and Mark Steyvers",
-  at: "<i>Accepted to</i> ACM Conference on Fairness, Accountability, and Transparency (FAccT), 2023",
-  pdfurl: "",
-  codeurl: ""}
+  at: "ACM Conference on Fairness, Accountability, and Transparency (FAccT), 2023",
+  pdfurl: "https://dl.acm.org/doi/10.1145/3593013.3594111",
+  codeurl: "https://github.com/markellekelly/AI_mental_models"}
 
 index:
 - {name: 'Understanding Systematic Miscalibration in Machine Learning Classifiers',
@@ -21,8 +21,8 @@ index:
   at: "37th AAAI Conference on Artificial Intelligence (AAAI), 2023",
   pdfurl: "https://arxiv.org/pdf/2209.15154.pdf",
   codeurl: "https://github.com/markellekelly/variable-wise-calibration"}
-- {name: 'Does the AI Know What I Know? A Framework for Modeling Human Perceptions of AI',
+- {name: 'Capturing Humans' Mental Models of AI: An Item Response Theory Approach',
   authors: "<b>Markelle Kelly</b>, Aakriti Kumar, Padhraic Smyth, and Mark Steyvers",
-  at: "<i>Accepted to</i> ACM Conference on Fairness, Accountability, and Transparency (FAccT), 2023",
-  pdfurl: "",
-  codeurl: ""}
+  at: "ACM Conference on Fairness, Accountability, and Transparency (FAccT), 2023",
+  pdfurl: "https://dl.acm.org/doi/10.1145/3593013.3594111",
+  codeurl: "https://github.com/markellekelly/AI_mental_models"}
