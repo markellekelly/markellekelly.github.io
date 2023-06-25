@@ -1,9 +1,4 @@
 all:
-- {name: 'Understanding Mental Models of AI Agents',
-  description: "As part of the human-machine group at UCI, led by Dr. Padhraic Smyth and Dr. Mark Steyvers, I am researching how
-      people develop mental models of AI agents. This work is based on crowdsourced experiments and Bayesian modeling techniques,
-      rooted in principles from cognitive science and psychology.",
-  image: "/assets/img/mental_model.png"}
 - {name: 'UCI Machine Learning Repository',
   description: "I am working on the NSF-funded reinvention of the <a href='https://archive-beta.ics.uci.edu/'>UCI Machine Learning Repository</a>,
       headed by Dr. Sameer Singh, Dr. Padhraic Smyth, and Dr. Philip Papadopoulos.
