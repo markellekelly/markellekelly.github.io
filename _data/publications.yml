@@ -2,7 +2,7 @@ featured:
 - {name: 'Variable-Based Calibration for Machine Learning Classifiers',
   authors: "<b>Markelle Kelly</b> and Padhraic Smyth",
   at: "37th AAAI Conference on Artificial Intelligence (AAAI), 2023",
-  pdfurl: "https://arxiv.org/pdf/2209.15154.pdf",
+  pdfurl: "https://ojs.aaai.org/index.php/AAAI/article/view/25991/25763",
   codeurl: "https://github.com/markellekelly/variable-wise-calibration"}
 - {name: "Capturing Humans' Mental Models of AI: An Item Response Theory Approach",
   authors: "<b>Markelle Kelly</b>, Aakriti Kumar, Padhraic Smyth, and Mark Steyvers",
@@ -14,12 +14,12 @@ index:
 - {name: 'Understanding Systematic Miscalibration in Machine Learning Classifiers',
   authors: "<b>Markelle Kelly</b> and Padhraic Smyth",
   at: "TREX Workshop, IEEE VIS, 2022",
-  pdfurl: "/publications/Understanding_Miscalibration.pdf",
+  pdfurl: "https://trexvis.github.io/Workshop2022/papers/Kelly.pdf",
   codeurl: "https://github.com/markellekelly/variable-wise-calibration"}
 - {name: 'Variable-Based Calibration for Machine Learning Classifiers',
   authors: "<b>Markelle Kelly</b> and Padhraic Smyth",
   at: "37th AAAI Conference on Artificial Intelligence (AAAI), 2023",
-  pdfurl: "https://arxiv.org/pdf/2209.15154.pdf",
+  pdfurl: "https://ojs.aaai.org/index.php/AAAI/article/view/25991/25763",
   codeurl: "https://github.com/markellekelly/variable-wise-calibration"}
 - {name: "Capturing Humans' Mental Models of AI: An Item Response Theory Approach",
   authors: "<b>Markelle Kelly</b>, Aakriti Kumar, Padhraic Smyth, and Mark Steyvers",
