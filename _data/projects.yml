@@ -1,4 +1,10 @@
 all:
+- {name: 'Improving Human-AI Collaboration',
+  description: "In collaboration with cognitive scientists, I am exploring the use of latent variable models to understand and facilitate interactions between humans
+  and AI agents. This includes my recent work on a Bayesian framework for capturing and characterizing humans' mental models of AI. Additionally, I am currently
+  developing algorithms for human-AI delegation, leveraging the unique strengths and weaknesses of individual humans and
+  AI agents.",
+  image: "/assets/img/human_ai.jpeg"}
 - {name: 'UCI Machine Learning Repository',
   description: "I am working on the NSF-funded reinvention of the <a href='https://archive-beta.ics.uci.edu/'>UCI Machine Learning Repository</a>,
       headed by Dr. Sameer Singh, Dr. Padhraic Smyth, and Dr. Philip Papadopoulos.

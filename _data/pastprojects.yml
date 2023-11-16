@@ -1,4 +1,10 @@
 all:
+- {name: 'Variable-Based Calibration',
+  description: "Having discovered that traditional ML calibration metrics and visualization techniques can obscure systematic biases
+  in model confidence scores, I developed calibration methodology that operates with respect to a particular variable. These 
+  variable-based calibration plots, metrics, and recalibration techniques can help reveal, characterize, and mitigate systematic over- and under-confidence
+  of a model, improving its calibration and fairness.",
+  image: "/assets/img/calib.png"}
 - {name: 'Software Engineering at Project Jupyter',
   description: "I worked for over two years as a software engineering intern for <a href='https://jupyter.org/'>Project Jupyter</a>, 
   with a focus on JupyterLab, a web-based framework for interactive computing.
