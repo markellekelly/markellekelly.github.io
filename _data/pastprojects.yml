@@ -5,6 +5,12 @@ all:
   variable-based calibration plots, metrics, and recalibration techniques can help reveal, characterize, and mitigate systematic over- and under-confidence
   of a model, improving its calibration and fairness.",
   image: "/assets/img/calib.png"}
+- {name: 'COVID Awareness',
+  description: "As a member of the <a href='https://www.stat.uci.edu/covid19/about.html'>UCI Covid Awareness</a> group, led by
+      Dr. Vladimir Minin, I helped maintain a dashboard displaying up-to-date information on COVID tests, cases, hospitalizations,
+      and deaths in California, with a focus on Orange County. This dashboard combined data from several
+      sources and presented it to California residents in a simple, understandable manner.",
+  image: "/assets/img/covid.png"}
 - {name: 'Software Engineering at Project Jupyter',
   description: "I worked for over two years as a software engineering intern for <a href='https://jupyter.org/'>Project Jupyter</a>, 
   with a focus on JupyterLab, a web-based framework for interactive computing.

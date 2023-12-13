@@ -12,9 +12,3 @@ all:
       datasets. I also contribute to general design and functionality decisions, and serve as a repository curator and librarian,
       curating and maintaining our datasets and their metadata.",
   image: "/assets/img/uci_ml.png"}
-- {name: 'COVID Awareness',
-  description: "As a member of the <a href='https://www.stat.uci.edu/covid19/about.html'>UCI Covid Awareness</a> group, led by
-      Dr. Vladimir Minin, I help maintain a dashboard that displays up-to-date information on COVID tests, cases, hospitalizations,
-      and deaths in California, with a focus on Orange County. This dashboard combines data from several
-      sources and aims to present it to California residents in an understandable manner.",
-  image: "/assets/img/covid.png"}
