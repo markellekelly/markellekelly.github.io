@@ -13,7 +13,7 @@ featured:
 index:
 - {name: 'Understanding Systematic Miscalibration in Machine Learning Classifiers',
   authors: "<b>Markelle Kelly</b> and Padhraic Smyth",
-  at: "TREX Workshop, IEEE VIS, 2022",
+  at: "IEEE Visualization Conference, Workshop on TRust and EXpertise in Visualization (TREX), 2022",
   pdfurl: "https://trexvis.github.io/Workshop2022/papers/Kelly.pdf",
   codeurl: "https://github.com/markellekelly/variable-wise-calibration"}
 - {name: 'Variable-Based Calibration for Machine Learning Classifiers',
@@ -30,4 +30,9 @@ index:
   authors: "Catarina Belem*, <b>Markelle Kelly*</b>, Sameer Singh, and Padhraic Smyth",
   at: "Conference on Empirical Methods in Natural Language Processing (EMNLP), 2024",
   pdfurl: "https://arxiv.org/abs/2407.15814",
+  codeurl: ""}
+- {name: "Benchmark Data Repositories for Better Benchmarking",
+  authors: "Rachel Longjohn*, <b>Markelle Kelly*</b>, Sameer Singh, and Padhraic Smyth",
+  at: "Conference on Neural Information Processing Systems (NeurIPS), Datasets and Benchmarks Track, 2024",
+  pdfurl: "https://arxiv.org/abs/2410.24100",
   codeurl: ""}
