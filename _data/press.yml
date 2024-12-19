@@ -1,12 +1,12 @@
 all:
+- {name: 'The Future of Machine Learning Data Practices and Repositories',
+  source: "I'm co-organizing an ICLR 2025 Workshop",
+  link: "https://mldpr2025.com/",
+  date: '12/19/2024'}
 - {name: 'Markelle Kelly Highlights the Human Side of Computer Science',
   source: 'UCI ICS Spotlight',
   link: "https://www.ics.uci.edu/community/news/view_news?id=2224",
   date: '10/15/2022'}
-- {name: 'Markelle Kelly and Padhraic Smyth will discuss how...',
-  source: 'TREX VIS Promotional Tweet',
-  link: "https://twitter.com/TrexInVIS/status/1577101194920480776",
-  date: '10/03/2022'}
 - {name: 'Culture of Collaboration Leads to Cutting-Edge Work in AI',
   source: 'UCI Statistics News',
   link: "https://www.stat.uci.edu/culture-of-collaboration-leads-to-cutting-edge-work-in-ai/",
