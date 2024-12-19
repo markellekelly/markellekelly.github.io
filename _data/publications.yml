@@ -9,6 +9,16 @@ featured:
   at: "ACM Conference on Fairness, Accountability, and Transparency (FAccT), 2023",
   pdfurl: "https://dl.acm.org/doi/10.1145/3593013.3594111",
   codeurl: "https://github.com/markellekelly/AI_mental_models"}
+- {name: "Perceptions of Linguistic Uncertainty by Language Models and Humans",
+  authors: "Catarina Belem*, <b>Markelle Kelly*</b>, Sameer Singh, and Padhraic Smyth",
+  at: "Conference on Empirical Methods in Natural Language Processing (EMNLP), 2024",
+  pdfurl: "https://arxiv.org/abs/2407.15814",
+  codeurl: ""}
+- {name: "Benchmark Data Repositories for Better Benchmarking",
+  authors: "Rachel Longjohn*, <b>Markelle Kelly*</b>, Sameer Singh, and Padhraic Smyth",
+  at: "Conference on Neural Information Processing Systems (NeurIPS), Datasets and Benchmarks Track, 2024",
+  pdfurl: "https://arxiv.org/abs/2410.24100",
+  codeurl: ""}
 
 index:
 - {name: 'Understanding Systematic Miscalibration in Machine Learning Classifiers',
