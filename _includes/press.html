@@ -1,6 +1,6 @@
 <div class="spacer row mb-5"></div>
 <div>
-    <h2 class="fw-bold fs-5 border-bottom pb-3 mb-4">News</h2>
+    <h2 class="fw-bold fs-4half border-bottom pb-3 mb-4">News</h2>
       {% for item in site.data.press.all %}
         <p><b>{{item.date}}</b> &nbsp; {{item.source}}: <a href={{item.link}}>"{{ item.name }}"</a></p>
       {% endfor %}

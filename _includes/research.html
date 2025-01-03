@@ -1,7 +1,7 @@
 <div>
     {% if page.title == "Home" %}
       <div>
-      <h2 class="fw-bold fs-5 border-bottom pb-3 mb-4">Selected Publications</h2>
+      <h2 class="fw-bold fs-4half border-bottom pb-3 mb-4">Selected Publications</h2>
         {% for item in site.data.publications.featured %}
           <p><b>{{ item.name }}</b><br>
           <span class="pubbody">
@@ -11,7 +11,7 @@
         {% endfor %}
       </div>
     {% else %}
-    <h2 class="fw-bold fs-5 border-bottom pb-3 mb-4">Publications</h2>
+    <h2 class="fw-bold fs-4half border-bottom pb-3 mb-4">Publications</h2>
     {% for item in site.data.publications.index %}
       <p><b>{{ item.name }}</b><br>
       <span class="pubbody">
@@ -20,7 +20,7 @@
       [<a href={{item.pdfurl}}>pdf</a>] [<a href={{item.codeurl}}>code</a>]</span></p>
     {% endfor %}
     <div class="spacer row mb-5"></div>
-      <h2 class="fw-bold fs-5 border-bottom pb-3 mb-4">Current Projects</h2>
+      <h2 class="fw-bold fs-4half border-bottom pb-3 mb-4">Current Projects</h2>
       {% for item in site.data.projects.all %}
         <div class="row">
           <div class="right p-0 col-md-1 d-none d-md-block"><img class="projimg" src="{{ item.image }}" width=100% /></div>
@@ -32,7 +32,7 @@
         </div>
       {% endfor %}
     <div class="spacer row mb-5"></div>
-    <h2 class="fw-bold fs-5 border-bottom pb-3 mb-4">Past Projects</h2>
+    <h2 class="fw-bold fs-4half border-bottom pb-3 mb-4">Past Projects</h2>
     {% for item in site.data.pastprojects.all %}
     <div class="row">
       <div class="right p-0 col-md-1 d-none d-md-block"><img class="projimg" src="{{ item.image }}" width=100% /></div>
