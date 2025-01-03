@@ -49,7 +49,7 @@ body {
   
   #me {
     width: 100%;
-    max-width: 200px;
+    max-width: 300px;
     margin-left: auto;
     margin-right: auto;
     border-radius:3px;
@@ -82,4 +82,14 @@ body {
   .pubbody {
     margin-left:10px;
     display:inline-block;
+  }
+
+  
+  footer a.heart:hover {
+    stroke: #d05;
+    fill: #d05;
+  }
+
+  footer a:hover {
+    fill: #052;
   }
