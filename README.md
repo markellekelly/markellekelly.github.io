@@ -1,4 +1,4 @@
-# Markelle Kelly
+# Markelle Rösti
 
 Personal website based on the template from https://github.com/LeNPaul/academic.
 
