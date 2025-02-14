@@ -1,4 +1,8 @@
 all:
+- {name: 'André and Markelle Rösti: Match Made in… ICS!',
+  source: "UCI ICS Spotlight",
+  link: "https://ics.uci.edu/2025/02/14/andre-and-markelle-rosti-match-made-in-ics/",
+  date: '02/14/2025'}
 - {name: 'The Future of Machine Learning Data Practices and Repositories',
   source: "I'm co-organizing an ICLR 2025 Workshop",
   link: "https://mldpr2025.com/",
