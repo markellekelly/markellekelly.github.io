@@ -1,6 +1,6 @@
 all:
 - {name: 'André and Markelle Rösti: Match Made in… ICS!',
-  source: "UCI ICS Spotlight",
+  source: "UCI ICS News",
   link: "https://ics.uci.edu/2025/02/14/andre-and-markelle-rosti-match-made-in-ics/",
   date: '02/14/2025'}
 - {name: 'The Future of Machine Learning Data Practices and Repositories',
@@ -8,7 +8,7 @@ all:
   link: "https://mldpr2025.com/",
   date: '12/19/2024'}
 - {name: 'Markelle Kelly Highlights the Human Side of Computer Science',
-  source: 'UCI ICS Spotlight',
+  source: 'UCI ICS News',
   link: "https://www.ics.uci.edu/community/news/view_news?id=2224",
   date: '10/15/2022'}
 - {name: 'Culture of Collaboration Leads to Cutting-Edge Work in AI',
