@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Paul Le"]
   spec.email         = ["hello@paulle.ca"]
 
-  spec.summary       = "personal website for Markelle Kelly"
+  spec.summary       = "personal website for Markelle Rösti"
   spec.homepage      = "https://github.com/LeNPaul/academic"
   spec.license       = "MIT"
 
