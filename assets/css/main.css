@@ -105,4 +105,5 @@ body {
   }
   
   .fs-4half {
- 
+    font-size: calc(1.2rem + .3vw);
+  }
