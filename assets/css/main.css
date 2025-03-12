@@ -12,6 +12,10 @@ body {
   body p {
     font-size:0.9em;
   }
+
+  body ul {
+    font-size:0.9em;
+  }
   
   body a:hover {
     color: #052;

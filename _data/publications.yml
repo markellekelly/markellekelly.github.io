@@ -12,12 +12,12 @@ featured:
 - {name: "Perceptions of Linguistic Uncertainty by Language Models and Humans",
   authors: "Catarina Belem*, <b>Markelle Kelly*</b>, Sameer Singh, and Padhraic Smyth",
   at: "Conference on Empirical Methods in Natural Language Processing (EMNLP), 2024",
-  pdfurl: "https://arxiv.org/abs/2407.15814",
-  codeurl: ""}
+  pdfurl: "https://aclanthology.org/2024.emnlp-main.483/",
+  codeurl: "https://github.com/UCIDataLab/llm-uncertainty-perceptions"}
 - {name: "Benchmark Data Repositories for Better Benchmarking",
   authors: "Rachel Longjohn*, <b>Markelle Kelly*</b>, Sameer Singh, and Padhraic Smyth",
   at: "Conference on Neural Information Processing Systems (NeurIPS), Datasets and Benchmarks Track, 2024",
-  pdfurl: "https://arxiv.org/abs/2410.24100",
+  pdfurl: "https://proceedings.neurips.cc/paper_files/paper/2024/hash/9d41fddf3169f4df3025fc60bfac94fa-Abstract-Datasets_and_Benchmarks_Track.html",
   codeurl: ""}
 
 index:
@@ -39,10 +39,10 @@ index:
 - {name: "Perceptions of Linguistic Uncertainty by Language Models and Humans",
   authors: "Catarina Belem*, <b>Markelle Kelly*</b>, Sameer Singh, and Padhraic Smyth",
   at: "Conference on Empirical Methods in Natural Language Processing (EMNLP), 2024",
-  pdfurl: "https://arxiv.org/abs/2407.15814",
-  codeurl: ""}
+  pdfurl: "https://aclanthology.org/2024.emnlp-main.483/",
+  codeurl: "https://github.com/UCIDataLab/llm-uncertainty-perceptions"}
 - {name: "Benchmark Data Repositories for Better Benchmarking",
   authors: "Rachel Longjohn*, <b>Markelle Kelly*</b>, Sameer Singh, and Padhraic Smyth",
   at: "Conference on Neural Information Processing Systems (NeurIPS), Datasets and Benchmarks Track, 2024",
-  pdfurl: "https://arxiv.org/abs/2410.24100",
+  pdfurl: "https://proceedings.neurips.cc/paper_files/paper/2024/hash/9d41fddf3169f4df3025fc60bfac94fa-Abstract-Datasets_and_Benchmarks_Track.html",
   codeurl: ""}
