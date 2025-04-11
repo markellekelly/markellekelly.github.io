@@ -19,6 +19,11 @@ featured:
   at: "Conference on Neural Information Processing Systems (NeurIPS), Datasets and Benchmarks Track, 2024",
   pdfurl: "https://proceedings.neurips.cc/paper_files/paper/2024/hash/9d41fddf3169f4df3025fc60bfac94fa-Abstract-Datasets_and_Benchmarks_Track.html",
   codeurl: ""}
+- {name: "Understanding Gender Bias in AI-Generated Product Descriptions",
+  authors: "<b>Markelle Kelly</b>, Mohammad Tahaei, Padhraic Smyth, and Lauren Wilcox",
+  at: "ACM Conference on Fairness, Accountability, and Transparency (FAccT), 2025",
+  pdfurl: "",
+  codeurl: ""}
 
 index:
 - {name: 'Understanding Systematic Miscalibration in Machine Learning Classifiers',
@@ -45,4 +50,9 @@ index:
   authors: "Rachel Longjohn*, <b>Markelle Kelly*</b>, Sameer Singh, and Padhraic Smyth",
   at: "Conference on Neural Information Processing Systems (NeurIPS), Datasets and Benchmarks Track, 2024",
   pdfurl: "https://proceedings.neurips.cc/paper_files/paper/2024/hash/9d41fddf3169f4df3025fc60bfac94fa-Abstract-Datasets_and_Benchmarks_Track.html",
+  codeurl: ""}
+- {name: "Understanding Gender Bias in AI-Generated Product Descriptions",
+  authors: "<b>Markelle Kelly</b>, Mohammad Tahaei, Padhraic Smyth, and Lauren Wilcox",
+  at: "ACM Conference on Fairness, Accountability, and Transparency (FAccT), 2025",
+  pdfurl: "",
   codeurl: ""}
