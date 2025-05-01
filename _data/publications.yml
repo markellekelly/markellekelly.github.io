@@ -24,6 +24,11 @@ featured:
   at: "ACM Conference on Fairness, Accountability, and Transparency (FAccT), 2025",
   pdfurl: "",
   codeurl: ""}
+- {name: "Bayesian Consensus Prediction for Correlated Human Experts and Classifiers",
+  authors: "<b>Markelle Kelly</b>, Alex Boyd, Sam Showalter, Padhraic Smyth, Mark Steyvers",
+  at: "International Conference on Machine Learning (ICML), 2025",
+  pdfurl: "",
+  codeurl: ""}
 
 index:
 - {name: 'Understanding Systematic Miscalibration in Machine Learning Classifiers',
@@ -54,5 +59,10 @@ index:
 - {name: "Understanding Gender Bias in AI-Generated Product Descriptions",
   authors: "<b>Markelle Kelly</b>, Mohammad Tahaei, Padhraic Smyth, and Lauren Wilcox",
   at: "ACM Conference on Fairness, Accountability, and Transparency (FAccT), 2025",
+  pdfurl: "",
+  codeurl: ""}
+- {name: "Bayesian Consensus Prediction for Correlated Human Experts and Classifiers",
+  authors: "<b>Markelle Kelly</b>, Alex Boyd, Sam Showalter, Padhraic Smyth, Mark Steyvers",
+  at: "International Conference on Machine Learning (ICML), 2025",
   pdfurl: "",
   codeurl: ""}
