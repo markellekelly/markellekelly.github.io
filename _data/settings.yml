@@ -1,5 +1,4 @@
 menu:
-# - {name: 'research', url: '/research'}
 - {name: 'cv', url: '/assets/markelle_resume.pdf'}
 
 social:
